@@ -99,18 +99,32 @@ The following clustering algorithms are explored in this project:
 
 After applying different clustering algorithms, we identified the following customer segments:
 
-- **Cluster -1 (Monetary Outliers) PAMPER**:
-Characteristics: High spenders but not necessarily frequent buyers. Their purchases are large but infrequent.
-Potential Strategy: Focus on maintaining their loyalty with personalized offers or luxury services that cater to their high spending capacity.
+1. Cluster 0 (Blue): "Retain"
+* Rationale: This cluster represents high-value customers who purchase regularly, though not always very recently. The focus should be on retention efforts to maintain loyalty and spending.
+* Action: Implement loyalty programs, personalized offers, and regular engagement to ensure they remain active.
 
-- **Cluster -2 (Frequency Outliers) UPSELL**:
-Characteristics: Frequent buyers who spend less per purchase. These customers are consistently engaged but might benefit from upselling opportunities.
-Potential Strategy: Implement loyalty programs or bundle deals to encourage higher spending per visit, given their frequent engagement.
+2. Cluster 1 (Orange): "Re-Engage"
+* Rationale: This group includes lower-value, infrequent buyers who haven’t purchased recently. The focus should be on re-engagement to return them to active purchasing behavior.
+* Action: Use targeted marketing campaigns, special discounts, or reminders to encourage them to return and purchase again.
 
-- **Cluster -3 (Monetary & Frequency Outliers) DELIGHT**:
-Characteristics: The most valuable outliers, with extreme spending and frequent purchases. They are likely your top-tier customers who require special attention.
-Potential Strategy: Develop VIP programs or exclusive offers to maintain their loyalty and encourage continued engagement.
-Detailed analysis and insights for each segment can be found in the `results` folder, including cluster visualizations.
+3. Cluster 2 (Green): "Nurture"
+* Rationale: This cluster represents the least active and lowest-value customers, but they have made recent purchases. These customers may be new or need nurturing to increase engagement and spending.
+* Action: Focus on building relationships, providing excellent customer service, and offering incentives to encourage more frequent purchases.
+
+4. Cluster 3 (Red): "Reward"
+* Rationale: This cluster includes high-value, very frequent buyers, many of whom are still actively purchasing. They are your most loyal customers, and rewarding their loyalty is key to maintaining their engagement.
+* Action: Implement a robust loyalty program, provide exclusive offers, and recognize their loyalty to keep them engaged and satisfied.
+
+**Summary of Cluster Names:**
+
+* Cluster 0 (Blue): "Retain"
+* Cluster 1 (Orange): "Re-Engage"
+* Cluster 2 (Green): "Nurture"
+* Cluster 3 (Red): "Reward"
+- ![download](https://github.com/user-attachments/assets/0b31f34a-e813-4164-8cfe-ca8f4ee39a85)
+- ![download1](https://github.com/user-attachments/assets/83ee049c-c213-4884-adc1-3d55ac99b5b3)
+
+
 
 ## Contributing
 
