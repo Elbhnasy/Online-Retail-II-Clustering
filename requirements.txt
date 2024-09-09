@@ -1,0 +1,6 @@
+Python==3.10.0
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
